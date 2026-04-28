@@ -1,5 +1,0 @@
-Per la guida aprire il file index.html
-ATTENZIONE: il file di testo corsi.txt è parte integrante della procedura e deve restare nella stessa cartella in cui è presente lo script GETMAT.cmd. Non modificarlo pena il mancato funzionamento dell'utility.
----
-Per feedback o per qualsiasi informazione si prega di scrivere a:
-gdl.sytes.net@gmail.com
