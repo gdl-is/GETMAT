@@ -97,13 +97,17 @@ for /L %%i in (%inizio%,1,%fine%) do (
       echo La lezione !lez! e' gia' presente, salto.
    ) else (
       echo Download di !lez!...
-      curl -s -f -o "!lez_avi!" "%url_base%!lez_avi!"
-      if errorlevel 1 (
+      curl -L --retry 3 -s -f -o "!lez_avi!" "%url_base%!lez_avi!"
+      if !errorlevel! NEQ 0 (
          echo Errore download !lez!
       ) else (
          echo Conversione !lez!...
-         ffmpeg.exe -y -hide_banner -loglevel error -stats -avoid_negative_ts make_zero -fflags +genpts+discardcorrupt -i "!lez_avi!" -tune stillimage -c:v libx264 -pix_fmt yuv420p -profile:v main -level 3.1 -crf 20 -preset medium -vf "fps=30,format=yuv420p" -c:a aac -b:a 192k -movflags +faststart "!lez_mp4!"
-         if exist "!lez_avi!" del "!lez_avi!"
+         ffmpeg -y -hide_banner -loglevel error -stats -avoid_negative_ts make_zero -fflags +genpts+discardcorrupt -i "!lez_avi!" -vf "fps=8,format=yuv420p" -c:v libx264 -crf 32 -preset slow -tune animation -x264-params "keyint=120:ref=4" -c:a aac -b:a 48k -movflags +faststart "!lez_mp4!"
+         if !errorlevel! NEQ 0 (
+            if exist "!lez_mp4!" del /f /q "!lez_mp4!"
+            echo Si e' verificato un errore nella codifica di "!lez_avi!". Si prega di riprovare successivamente.
+         )
+         if exist "!lez_avi!" del /f /q "!lez_avi!"
       )
    )
 )
@@ -111,14 +115,13 @@ echo Fine del lavoro.
 goto :end
 
 :corsi
-echo Codici dei corsi disponibili
-echo ============================
+echo Questi i codici dei Corsi disponibili per la conversione
+echo ========================================================
 for /f "tokens=1,2 delims=*" %%a in (%~dp0corsi.txt) do (
    set "corso=%%a"
    set "titolo=%%b"
    echo !corso!: !titolo!
 )
-
 goto :end
 
 :err
