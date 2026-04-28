@@ -56,7 +56,7 @@ if "%1"=="" (
 ) else (
    set "corso=%1"
 )
-for /f "tokens=2,3,4,5 delims=*" %%a in ('findstr /I /C:"%corso%" "%~dp0corsi.txt"') do (
+for /f "tokens=2,3,4,5 delims=*" %%a in ('findstr /B /I /C:"%corso%*" "%~dp0corsi.txt"') do (
    set "titolo=%%a"
    set "url_base=%%b"
    set "lezione=%%c"
