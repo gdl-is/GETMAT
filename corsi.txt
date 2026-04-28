@@ -1,0 +1,39 @@
+AL_15*Algebra Lineare - A.A. 2014/2015*https://pagine.dm.unipi.it/gobbino/Tablet/AL_15/*AL_15_L*2
+AL_19*Algebra Lineare - A.A. 2018/2019*https://pagine.dm.unipi.it/gobbino/Tablet/AL_19/*AL_19_L*2
+AL_22*Algebra Lineare - A.A. 2021/2022*https://pagine.dm.unipi.it/gobbino/Tablet/AL_22/*AL_22_L*2
+AL_23*Algebra Lineare - A.A. 2022/2023*https://pagine.dm.unipi.it/gobbino/Tablet/AL_23/*AL_23_L*2
+AL_24*Algebra Lineare - A.A. 2023/2024*https://pagine.dm.unipi.it/gobbino/Tablet/AL_24/*AL_24_L*2
+ALAM2_14*Algebra Lineare - A.A. 2013/2014*http://pagine.dm.unipi.it/gobbino/Tablet/ALAM2_14/*ALAM2_14_L*3
+AM09*Analisi Matematica I - A.A. 2008/2009*https://pagine.dm.unipi.it/gobbino/Tablet/AM09/*AM09_L*3
+AM10*Analisi Matematica I - A.A. 2009/2010*https://pagine.dm.unipi.it/gobbino/Tablet/AM10/*AM10_L*3
+AM11*Analisi Matematica I - A.A. 2010/2011*https://pagine.dm.unipi.it/gobbino/Tablet/AM11/*AM11_L*3
+AM12*Analisi Matematica I - A.A. 2011/2012*https://pagine.dm.unipi.it/gobbino/Tablet/AM12/*AM12_L*3
+AM13*Analisi Matematica I - A.A. 2012/2013*https://pagine.dm.unipi.it/gobbino/Tablet/AM13/*AM13_L*3
+AM1_15*Analisi Matematica 1 - 2014/2015*https://pagine.dm.unipi.it/gobbino/Tablet/AM1_15/*AM1_15_L*3
+AM1_17*Analisi Matematica 1 - 2016/2017*https://pagine.dm.unipi.it/gobbino/Tablet/AM1_17/*AM1_17_L*3
+AM1_25*Analisi Matematica 1 - 2024/2025*https://pagine.dm.unipi.it/gobbino/Tablet/AM1_25/*AM1_25_L*3
+AM1_26*Analisi Matematica 1 - 2025/2026*https://pagine.dm.unipi.it/gobbino/Tablet/AM1_26/*AM1_26_L*3
+AM2_14*Analisi Matematica 2 - 2013/2014*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_14/*AM2_14_L*2
+AM2_16*Analisi Matematica 2 - 2015/2016*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_16/*AM2_16_L*3
+AM2_18*Analisi Matematica 2 - 2017/2018*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_18/*AM2_18_L*3
+AM2_20*Analisi Matematica 2 - 2019/2020*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_20/*AM2_20_L*2
+AM2_23*Complementi di Analisi Matematica - 2022/2022*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_23/*AM2_23_L*2
+AM2_24*Complementi di Analisi Matematica - 2023/2024*https://pagine.dm.unipi.it/gobbino/Tablet/AM2_24/*AM2_24_L*2
+C07*Analisi Matematica II - A.A. 2006/07*http://users.dma.unipi.it/~gobbino/Tablet/C07/*C07_L*2
+CDV_16*Elementi di Calcolo delle Variazioni - 2015/2016*https://pagine.dm.unipi.it/gobbino/Tablet/CdV_16/*CdV_16_L*2
+CDV_17*Elementi di Calcolo delle Variazioni - 2016/2017*https://pagine.dm.unipi.it/gobbino/Tablet/CdV_17/*CdV_17_L*2
+CDV_18*Elementi di Calcolo delle Variazioni - 2017/2018*https://pagine.dm.unipi.it/gobbino/Tablet/CdV_18/*CdV_18_L*2
+FREIBERG_17*Freiberg 2017*https://pagine.dm.unipi.it/gobbino/Tablet/Freiberg_17/*Freiberg_17_L*1
+ISTAM_19*Istituzioni di Analisi Matematica - 2018/2019*https://pagine.dm.unipi.it/gobbino/Tablet/IstAM_19/*IstAM_19_L*2
+ISTAM_20*Istituzioni di Analisi Matematica - 2019/2020*https://pagine.dm.unipi.it/gobbino/Tablet/IstAM_20/*IstAM_20_L*2
+ISTAM_21*Istituzioni di Analisi Matematica - 2020/2021*https://pagine.dm.unipi.it/gobbino/Tablet/IstAM_21/*IstAM_21_L*2
+ISTAM_22*Istituzioni di Analisi Matematica - 2021/2022*https://pagine.dm.unipi.it/gobbino/Tablet/IstAM_22/*IstAM_22_L*2
+PCM_25*Precorso per Matematica 2025*https://pagine.dm.unipi.it/gobbino/Tablet/Precorsi/PCM_25/*PCM_25_L*2
+SA10*Complementi di Matematica I - SSSUP 2009/10*https://pagine.dm.unipi.it/gobbino/Tablet/SA10/*SA10_*2
+SA11*Complementi di Matematica I - SSSUP 2010/11*https://pagine.dm.unipi.it/gobbino/Tablet/SA11/*SA11_*2
+SA12*Complementi di Matematica II - SSSUP 2011/12*https://pagine.dm.unipi.it/gobbino/Tablet/SA12/*SA12_*2
+SA13*Complementi di Matematica I - SSSUP 2012/13*https://pagine.dm.unipi.it/gobbino/Tablet/SA13/*SA13_*2
+SA14*Complementi di Analisi Matematica II - SSSUP 2013/2014*https://pagine.dm.unipi.it/gobbino/Tablet/SA14/SA14_L01.avihttps://pagine.dm.unipi.it/gobbino/Tablet/SA14/*SA14_L*2
+SA15*Complementi di Analisi Matematica II - SSSUP 2014/2015*https://pagine.dm.unipi.it/gobbino/Tablet/SA15/*SA15_L*2
+T07*Matematica I - A.A. 2006/07*http://pagine.dm.unipi.it/gobbino/Tablet/T07/*T07_L*2
+T08*Matematica I - A.A. 2007/08*http://pagine.dm.unipi.it/gobbino/Tablet/T08/*T08_L*3

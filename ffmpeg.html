@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial: Installare FFmpeg su Windows</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        header { border-bottom: 3px solid #0078d7; margin-bottom: 30px; padding-bottom: 10px; }
+        h1 { color: #0078d7; }
+        .step { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .step h2 { margin-top: 0; color: #444; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        code { background: #eee; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+        .path-box { background: #282c34; color: #abb2bf; padding: 15px; border-left: 5px solid #61afef; border-radius: 4px; overflow-x: auto; }
+        .note { background: #fff3cd; border-left: 5px solid #ffeeba; padding: 10px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Come installare FFmpeg su Windows</h1>
+    <p>Una guida rapida per configurare FFmpeg e usarlo da qualsiasi cartella nel terminale.</p>
+</header>
+
+<div class="step">
+    <h2>Passo 1: Scaricare i file</h2>
+    <p>Vai su <a href="https://github.com/BtbN/FFmpeg-Builds/releases" target="_blank">FFmpeg-Builds su GitHub</a>.</p>
+    <p>Cerca l'ultima release e scarica il file zip che termina con <code>-win64-gpl.zip</code> (es. <em>ffmpeg-master-latest-win64-gpl.zip</em>).</p>
+</div>
+
+<div class="step">
+    <h2>Passo 2: Decomprimere la cartella</h2>
+    <p>Estrai il contenuto del file ZIP scaricato. Otterrai una cartella (es. <code>ffmpeg-master-latest-win64-gpl</code>).</p>
+    <p>Rinomina la cartella semplicemente in <strong>"ffmpeg"</strong> e spostala in un percorso facile da ricordare, ad esempio in <code>C:\ffmpeg</code>.</p>
+    <div class="note">⚠️ Assicurati che dentro <code>C:\ffmpeg</code> ci sia la cartella <code>bin</code>.</div>
+</div>
+
+<div class="step">
+    <h2>Passo 3: Aggiungere FFmpeg al PATH</h2>
+    <p>Per invocare <code>ffmpeg</code> da ogni terminale senza scrivere il percorso completo, dobbiamo aggiungerlo alle variabili d'ambiente:</p>
+    <ol>
+        <li>Premi il tasto <strong>Start</strong> e scrivi "Variabili di ambiente".</li>
+        <li>Scegli "Modifica le variabili di ambiente relative al sistema".</li>
+        <li>Clicca sul pulsante <strong>Variabili d'ambiente...</strong> in basso a destra.</li>
+        <li>Nella sezione "Variabili per l'utente", seleziona <strong>Path</strong> e clicca su <strong>Modifica</strong>.</li>
+        <li>Clicca su <strong>Nuovo</strong> e incolla il percorso assoluto della <strong>cartella bin</strong>: <br>
+            <code>C:\ffmpeg\bin</code>
+            <p>Ovviamente, se hai scelto di estrarre FFmpeg in un percorso diverso, utilizza quel percorso.</p>
+        </li>
+        <li>Conferma cliccando su OK in tutte le finestre.</li>
+    </ol>
+</div>
+
+<div class="step">
+    <h2>Passo 4: Verifica l'installazione</h2>
+    <p>Apri il <strong>Prompt dei comandi</strong> (CMD) o <strong>PowerShell</strong> e digita:</p>
+    <div class="path-box">ffmpeg -version</div>
+    <p>Se vedi apparire le informazioni sulla versione di FFmpeg, l'installazione è riuscita!</p>
+</div>
+
+</body>
+</html>
