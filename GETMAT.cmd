@@ -113,7 +113,7 @@ goto :end
 :corsi
 echo Codici dei corsi disponibili
 echo ============================
-for /f "tokens=1,2 delims=*" %%a in (corsi.txt) do (
+for /f "tokens=1,2 delims=*" %%a in (%~dp0corsi.txt) do (
    set "corso=%%a"
    set "titolo=%%b"
    echo !corso!: !titolo!
